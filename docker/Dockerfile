@@ -7,4 +7,6 @@ ADD . /opt
 
 WORKDIR /opt/3dapi
 
+RUN pip install -r requirements.txt
+
 CMD ["./start.sh"]
