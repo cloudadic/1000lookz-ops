@@ -1,0 +1,43 @@
+{
+  "secret_key" : "{{SECRET_KEY}}",
+  "db" :{
+    "mysql" : {
+      "username" : "{{DB_USER}}",
+      "password" : "{{DB_PASSWORD}}",
+      "host" : "{{DB_HOST}}",
+      "database" : "{{DB_NAME}}"
+      }
+  },
+
+  "oauth_credentials":{
+    "facebook":{
+      "id": "479013835633484",
+      "secret": "f788b1973a7ab99719e12f7bc4e95cc7"
+    },
+    "google":{
+      "id": "390895518305-s69mqnsqql8f7idg7vs86jb01gp0v5l2.apps.googleusercontent.com",
+      "secret": "ps3mRRoY_e9h2aL4tbqvW7Tw"
+    }
+  },
+
+  "boto_files":{
+    "aws_region": "ap-southeast-1",
+    "aws_access_key_id": "AKIAIJPRRSXGBA6KGDCA",
+    "aws_secret_access_key": "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",
+    "bucketRoot": "try1000looks.com/",
+    "bucket3d": "3d/",
+    "bucket3d-category": ["eyewear/", "category2/"],
+    "bucket3d-sub-category": ["obj/", "video/", "json/"],
+    "bucketCurrentPermanent": "permanent",
+    "bucketCurrentTemporary": "temporary"
+  },
+
+  "logs":{
+    "path": "logs/access_logs.log",
+    "level": "debug"
+  },
+
+  "frontend_config": {
+    "url": "{{FRONT_END_URL}}"
+  }
+}

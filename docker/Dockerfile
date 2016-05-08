@@ -7,6 +7,4 @@ ADD . /opt
 
 WORKDIR /opt/3dapi
 
-RUN python manage.py db upgrade
-
-CMD ["python","manage.py","runserver"]
+CMD ["./start.sh"]
